@@ -1,0 +1,36 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "homepage",
+        "kind": 2,
+        "importPath": ".venv.main",
+        "description": ".venv.main",
+        "peekOfCode": "def homepage():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run()",
+        "detail": ".venv.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": ".venv.main",
+        "description": ".venv.main",
+        "peekOfCode": "app =  Flask(__name__)\n@app.route('/')\ndef homepage():\n    return render_template('index.html')\nif __name__ == '__main__':\n    app.run()",
+        "detail": ".venv.main",
+        "documentation": {}
+    }
+]

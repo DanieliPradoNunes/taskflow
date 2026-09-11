@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/png" href="../static/imgs/favicon.png">
+</head>
+<body>
+    <header>
+
+    <h1>Bem-vindo ao TaskFlow!</h1>
+    <button type="button" id="abrirModal">Nova tarefa</button>
+
+    </header>
+
+    <br>
+
+    <main id="listaTarefas">
+        <dialog id="modalTarefa">
+            <form method="dialog">
+                <label for="tituloTarefa">Título:</label>
+                <input type="text" id="tituloTarefa"> 
+                <label for="descTarefa">Descrição:</label>
+                <textarea id="descTarefa"></textarea>
+                <button id="salvarTarefa", type="submit">Salvar</button>
+                <button id="cancelarTarefa" type="button">Cancelar</button>
+            </form>
+        </dialog>
+        <section id="listaTarefas">
+
+        </section>
+
+    </main>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
