@@ -170,3 +170,8 @@ dialog textarea {
     font-weight: bold;
     cursor: pointer;
 }
+
+article.arrastando {
+    opacity: 0.5;
+    border: 2px dashed #ffe169;
+}
